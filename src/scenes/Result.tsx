@@ -11,6 +11,9 @@ export const Result: FC<Props> = ({ score, onClickRetry }) => {
         <>
             <h1>SCORE:{score}</h1>
             <input type="button" value="RETRY" className="input" onClick={onClickRetry} />
+            <br />
+            <br />
+            <a href="https://github.com/NakaYou/ten-second-challenge">コードだよ</a>
         </>
     )
 }
